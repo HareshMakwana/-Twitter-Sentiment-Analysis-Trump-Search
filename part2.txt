@@ -5,7 +5,7 @@ neg.words = scan('D:/ML-sh/negative-words.txt', what='character', comment.char='
 
 #Adding other words to positive & negative databases
 pos.words=c(pos.words, 'Congrats', 'thanks', 'thnx', 'Grt', 'gr8','leader')
-neg.words = c(neg.words, 'Fight', 'fighting', 'not')
+neg.words = c(neg.words, 'fight', 'fighting', 'not')
 
 srch.tweets=searchTwitter("trump", lang="en", n=1500, resultType="recent")
 #srch.tweets=searchTwitter("trump", lang="en", n=15000, resultType="recent")
