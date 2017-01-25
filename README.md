@@ -22,4 +22,4 @@
  Part2: cleaning tweet, word database including positive words & negative words test files, score sentiment
     percentage, function, 
   
- Part:  Plotting 
+ Part3:  Plotting 
